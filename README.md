@@ -4,9 +4,8 @@
 
 Рефакторинг реального навчального проєкту з GitHub:  
 **[Uthpal-p/Library-Management-system-using-Python](https://github.com/Uthpal-p/Library-Management-system-using-Python)**  
-(0 зірок, 0 форків, 1 файл `main_lms.py`, 123 рядки)
 
-Оригінальна система дозволяє адміністратору бібліотеки переглядати книги, видавати їх читачам, приймати повернення і розраховувати штраф за прострочення. Зв'язок із CSV через `pandas` замінено на in-memory структури для можливості unit-тестування — всі code smells збережені.
+Оригінальна система дозволяє адміністратору бібліотеки переглядати книги, видавати їх читачам, приймати повернення і розраховувати штраф за прострочення. Зв'язок із CSV через `pandas` замінено на in-memory структури для можливості unit-тестування - всі code smells збережені.
 
 ---
 
@@ -42,7 +41,7 @@ LIBRARY_IMPL=original python -m pytest tests/test_cases.py -v
 
 ## Застосовані техніки рефакторингу (10)
 
-| # | Техніка | Code Smell |
+| # | Техніка | Code |
 |---|---|---|
 | 1 | Move Import to Top Level | `import` всередині функцій |
 | 2 | Replace Magic Number with Named Constant | числа в логіці без контексту |
