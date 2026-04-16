@@ -2,7 +2,7 @@
 
 ## Опис
 
-Рефакторинг реального навчального проєкту з GitHub:  
+Рефакторинг проєкту з GitHub:  
 **[Uthpal-p/Library-Management-system-using-Python](https://github.com/Uthpal-p/Library-Management-system-using-Python)**  
 
 Оригінальна система дозволяє адміністратору бібліотеки переглядати книги, видавати їх читачам, приймати повернення і розраховувати штраф за прострочення. Зв'язок із CSV через `pandas` замінено на in-memory структури для можливості unit-тестування - всі code smells збережені.
