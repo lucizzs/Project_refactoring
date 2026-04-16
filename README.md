@@ -13,12 +13,12 @@
 
 ```
 project-root/
-├── original_code.py          ← legacy-версія зі збереженими code smells
-├── refactored_code.py        ← рефакторована версія (10 технік)
+├── original_code.py          --- legacy-версія зі збереженням 
+├── refactored_code.py        --- рефакторована версія
 ├── tests/
-│   └── test_cases.py         ← 40 юніт-тестів (працюють на обох версіях)
+│   └── test_cases.py         --- 40 юніт-тестів
 ├── docs/
-│   └── refactoring_report.md ← детальний звіт по кожній техніці
+│   └── refactoring_report.md  --- детальний звіт по кожній техніці
 └── README.md
 ```
 
@@ -39,7 +39,7 @@ LIBRARY_IMPL=original python -m pytest tests/test_cases.py -v
 
 ---
 
-## Застосовані техніки рефакторингу (10)
+## Застосовані техніки рефакторингу
 
 | # | Техніка | Code |
 |---|---|---|
